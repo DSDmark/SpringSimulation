@@ -33,5 +33,6 @@ Once you are done  you can close the application in your terminal to quit the ap
 </div>
 
 > If you have any issues with that Application feel free to let me know!
+
 > If you are more interested, check out the collection of [ **CLIsapplications**](https://github.com/DSDmark/CLIsapplications"CLIsapplications").
 ---

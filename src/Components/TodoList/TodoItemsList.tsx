@@ -1,4 +1,4 @@
-import React, { FC, useContext } from 'react';
+import { FC, useContext } from 'react';
 import { todoContext } from '../../Context';
 import ShowList from './ShowList';
 
