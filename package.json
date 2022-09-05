@@ -6,10 +6,9 @@
     "main": "src/index.tsx",
     "license": "MIT",
     "dependencies": {
-        "craco": "^0.0.3",
         "react": "18.0.0",
         "react-dom": "18.0.0",
-        "react-scripts": "4.0.3",
+        "react-scripts": "^5.0.1",
         "uuidv4": "6.2.13"
     },
     "devDependencies": {
