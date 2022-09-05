@@ -1,5 +1,5 @@
-import { createContext } from "react";
+import { createContext } from 'react';
 
-const todoContext = createContext<any>(null);
+const todoContext = createContext<any | null>(null);
 
 export default todoContext;

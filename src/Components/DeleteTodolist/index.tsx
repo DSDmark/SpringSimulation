@@ -1,1 +1,1 @@
-export { default as DeleteTodolist } from "./DeleteTodolist";
+export { default as DeleteTodolist } from './DeleteTodolist';
