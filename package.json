@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -13,6 +15,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.3.6",
+    "theme-ui": "^0.15.1",
     "typescript": "*",
     "web-vitals": "^2.1.0"
   },
@@ -44,6 +49,8 @@
     ]
   },
   "devDependencies": {
+    "@types/rebass": "^4.0.10",
+    "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.0.1",
