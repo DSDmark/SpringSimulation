@@ -8,9 +8,7 @@ export const theme: Theme = {
 		16,
 		32,
 		64,
-		128,
-		256,
-		512
+
 	],
 	"fonts": {
 		"body": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
@@ -23,10 +21,7 @@ export const theme: Theme = {
 		16,
 		20,
 		24,
-		32,
-		48,
-		64,
-		96
+
 	],
 	"fontWeights": {
 		"body": 400,
@@ -71,27 +66,7 @@ export const theme: Theme = {
 			"fontWeight": "heading",
 			"fontSize": 3
 		},
-		"h4": {
-			"color": "text",
-			"fontFamily": "heading",
-			"lineHeight": "heading",
-			"fontWeight": "heading",
-			"fontSize": 2
-		},
-		"h5": {
-			"color": "text",
-			"fontFamily": "heading",
-			"lineHeight": "heading",
-			"fontWeight": "heading",
-			"fontSize": 1
-		},
-		"h6": {
-			"color": "text",
-			"fontFamily": "heading",
-			"lineHeight": "heading",
-			"fontWeight": "heading",
-			"fontSize": 0
-		},
+
 		"p": {
 			"color": "text",
 			"fontFamily": "body",
@@ -108,25 +83,32 @@ export const theme: Theme = {
 				"color": "inherit"
 			}
 		},
-		"code": {
-			"fontFamily": "monospace",
-			"fontSize": "inherit"
-		},
-		"table": {
-			"width": "100%",
-			"borderCollapse": "separate",
-			"borderSpacing": 0
-		},
-		"th": {
-			"textAlign": "left",
-			"borderBottomStyle": "solid"
-		},
-		"td": {
-			"textAlign": "left",
-			"borderBottomStyle": "solid"
-		},
+
 		"img": {
 			"maxWidth": "100%"
 		}
+	},
+	"buttons": {
+		"primary": {
+			"barkground": "colors.primary",
+			":focus,:hover": {
+				"boxShadow": "elevated",
+				"transform": "scale(1.0625)"
+			},
+		}
+	},
+	"text": {
+		"title": {
+			"fontSize": "body",
+			"color": "#444C45",
+			"fontWidth": "bold"
+		},
+		"subtitle": {
+
+		},
+		"cap": {
+
+		}
 	}
+
 }
