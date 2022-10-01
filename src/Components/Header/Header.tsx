@@ -1,43 +1,29 @@
 /** @jsxImportSource theme-ui */
-import { Flex, NavLink, Link, Box } from "theme-ui";
+import { Container, Flex, NavLink, Link, Box, Button, Text } from "theme-ui";
 
 const Header = () => {
-  return (
-    <>
-      <Flex as="nav" bg="header">
-        <Link
-          href="#!"
-          p={3}
-          m={2}
-          sx={{ variant: "links.text", flex: "1 1 auto" }}
-        >
-          Logo
-        </Link>
-
-        <Box
-          sx={{
-            border: `5px solid red`,
-          }}
-        >
-          <NavLink
-            href="#!"
-            p={3}
-            m={2}
-            sx={{ borderRadius: "50px" }}
-            bg="alert"
-          >
-            profdf
-          </NavLink>
-          <NavLink p={3} m={2}>
-            profdf
-          </NavLink>
-          <NavLink p={3} m={2}>
-            profdf
-          </NavLink>
-        </Box>
-      </Flex>
-    </>
-  );
+	const categroys = [
+		"Home2",
+		"Home",
+		"Abort",
+		"Contacts"
+	]
+	return (
+		<>
+			<header>
+				<Container>
+					<Flex sx={{ gap: "2rem" }}>
+						<Text variant="title" p={2}>Logo</Text>
+						<Box mx="auto" />
+						{categroys.map((e, i) => (
+							<NavLink key={i + new Date().getTime()} p={2} bg="secodary">{e}</NavLink>
+						))}
+						<Button bg="black">Login</Button>
+					</Flex>
+				</Container>
+			</header>
+		</>
+	);
 };
 
 export default Header;
