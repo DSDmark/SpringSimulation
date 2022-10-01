@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Header } from "./Components";
 import { ThemeProvider, Button, Card, Badge } from "theme-ui";
 import { theme } from "./theme";

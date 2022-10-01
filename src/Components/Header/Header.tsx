@@ -1,24 +1,22 @@
-/** @jsxImportSource theme-ui */
-import { Container, Flex, NavLink, Link, Box, Button, Text } from "theme-ui";
+import React, { useState, FC } from "react";
+import { Container, Avatar, Flex, NavLink, Link, Box, Button, Text } from "theme-ui";
+import { HeaderData } from "../../Data";
+import { Logo } from "./Logo";
+import { Navagetion } from "./Navagetion";
 
-const Header = () => {
-	const categroys = [
-		"Home2",
-		"Home",
-		"Abort",
-		"Contacts"
-	]
+const Header: FC = () => {
+	const [state, setState] = useState<any>(HeaderData);
+	const { logo, categroy } = state;
+
+
 	return (
 		<>
 			<header>
-				<Container>
+				<Container >
 					<Flex sx={{ gap: "2rem" }}>
-						<Text variant="title" p={2}>Logo</Text>
+						<Logo logo={logo} />
 						<Box mx="auto" />
-						{categroys.map((e, i) => (
-							<NavLink key={i + new Date().getTime()} p={2} bg="secodary">{e}</NavLink>
-						))}
-						<Button bg="black">Login</Button>
+						<Navagetion categroy={categroy} />
 					</Flex>
 				</Container>
 			</header>
