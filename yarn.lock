@@ -2056,6 +2056,14 @@
   dependencies:
     "csstype" "^3.0.10"
 
+"@theme-ui/sidenav@^0.15.1":
+  "integrity" "sha512-IuMMToGhyFArbI5PVjlroaXMaipNJ4FrbotNA22tj52xFX32gMJgNB7RNu7a70UBfJOBEgKbcFAeUHh8iMxy1Q=="
+  "resolved" "https://registry.npmjs.org/@theme-ui/sidenav/-/sidenav-0.15.1.tgz"
+  "version" "0.15.1"
+  dependencies:
+    "deepmerge" "^4.0.0"
+    "theme-ui" "^0.15.1"
+
 "@theme-ui/theme-provider@^0.15.1":
   "integrity" "sha512-c73yHCOYpXvUKW3Vd+LBMBoLslEJEzZgnsqbBcOYEF49PAFwZHAgB+NkPjEFJNj2/nSGCLH03O03zbSMemoHbw=="
   "resolved" "https://registry.npmjs.org/@theme-ui/theme-provider/-/theme-provider-0.15.1.tgz"
@@ -3841,7 +3849,7 @@
   "resolved" "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz"
   "version" "0.1.4"
 
-"deepmerge@^4.2.2":
+"deepmerge@^4.0.0", "deepmerge@^4.2.2":
   "integrity" "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg=="
   "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
   "version" "4.2.2"
