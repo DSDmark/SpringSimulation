@@ -1,13 +1,13 @@
 import React, { useState, FC } from "react";
-import { Container, Avatar, Flex, NavLink, Link, Box, Button, Text } from "theme-ui";
+import { Container, Flex, Box, } from "theme-ui";
 import { HeaderData } from "../../Data";
 import { Logo } from "./Logo";
 import { Navagetion } from "./Navagetion";
 
-const Header: FC = () => {
-	const [state, setState] = useState<any>(HeaderData);
-	const { logo, categroy } = state;
 
+const Header: FC = () => {
+	const [state, setState] = useState<Iheader>(HeaderData);
+	const { logo, categroy } = state;
 
 	return (
 		<>
