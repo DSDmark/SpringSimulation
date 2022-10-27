@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  min-height:100vh;
+  background:rgb(7, 3, 6);
+}
+.contain{
+    position:relative;
+    width:300px;
+    height:300px;
+    transform-style:preserve-3d;
+    transform: perspective(500px) rotateX(7600deg);
+}
+.contain span{
+    position:absolute;
+    display:block;
+    border:5px solit rgb(17, 250, 8);
+    border-radius:50%;
+    box-sizing:border-box;
+    box-shadow: 0 5px 0 rgb(5, 235, 24),
+               inset 0 5px 0 rgb(7, 240, 7);
+    animation: key 3s ease-in-out infinite;
+}
+.contain span:nth-child(1){
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    animation-delay:1.7s;
+}
+.contain span:nth-child(2){
+    top:10;
+    left:10;
+    bottom:10;
+    right:10;
+    animation-delay:1.6s;
+}
+.contain span:nth-child(3){
+    top:20;
+    left:20;
+    bottom:20;
+    right:20;
+    animation-delay:1.5s;
+}
+.contain span:nth-child(4){
+    top:30;
+    left:30;
+    bottom:30;
+    right:30;
+    animation-delay:1.4s;
+}
+.contain span:nth-child(5){
+    top:40;
+    left:40;
+    bottom:40;
+    right:40;
+    animation-delay:1.3s;
+}
+.contain span:nth-child(6){
+    top:50;
+    left:50;
+    bottom:50;
+    right:50;
+    animation-delay:1.2s;
+}
+.contain span:nth-child(7){
+    top:60;
+    left:60;
+    bottom:60;
+    right:60;
+    animation-delay:1s;
+}
+.contain span:nth-child(8){
+    top:70;
+    left:70;
+    bottom:70;
+    right:70;
+    animation-delay:0.9s;
+}
+.contain span:nth-child(9){
+    top:80;
+    left:80;
+    bottom:80;
+    right:80;
+    animation-delay:0.8s;
+}
+.contain span:nth-child(10){
+    top:90;
+    left:90;
+    bottom:90;
+    right:90;
+    animation-delay:0.7s;
+}
+.contain span:nth-child(11){
+    top:100;
+    left:100;
+    bottom:100;
+    right:100;
+    animation-delay:0.6s;
+}
+.contain span:nth-child(12){
+    top:110;
+    left:110;
+    bottom:110;
+    right:110;
+    animation-delay:0.5s;
+}
+.contain span:nth-child(13){
+    top:120;
+    left:120;
+    bottom:120;
+    right:120;
+    animation-delay:0.4s;
+}
+.contain span:nth-child(14){
+    top:130;
+    left:130;
+    bottom:130;
+    right:130;
+    animation-delay:0.3s;
+}
+.contain span:nth-child(15){
+    top:140;
+    left:140;
+    bottom:140;
+    right:140;
+    animation-delay:0.2s;
+}
+.contain span:nth-child(16){
+    top:1000;
+    left:1000;
+    bottom:1000;
+    right:1000;
+    animation-delay:0.1s;
+}
+.contain span:nth-child(17){
+    top:150;
+    left:0;
+    bottom:300;
+    right:0;
+    animation-delay:0.001s;
+    font-size:30px;
+    color:white;
+    display: block;
+    text-align: center;   
+}
+@keyframes key {
+    0%,100%{
+        transform:translateZ(-100px);
+    }
+    50%{
+        transform: translateZ(100px);
+    }
+}
