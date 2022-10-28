@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/style/style.css">
         <title>3D Animetion</title>
     </head>
     <body>
@@ -29,7 +29,7 @@
         const setTxt = document.getElementById("txt");
       window.addEventListener('load', (event) => {
      const txt = prompt('enter you text:-');
-   setTxt.innerText = txt;
+   setTxt.innerText = txt.length== 0?"😅":txt;
 });
         </script>
     </body>
