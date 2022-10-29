@@ -1,6 +1,6 @@
 <div align="center">
 
-# TextAnimation
+# SimpleSpringAnimation
 
 </div>
 
@@ -31,15 +31,15 @@ Once you are done playing, you can close the tab in your browser to quit the gam
 
 </div>
 
-### TextAnimation
+### SimpleSpringAnimation
 
 ![TextAnimation preview](assets/images/preview.gif  "TextAnimation preview")
-
-</div>
 
 > If you have any issues with the game feel free to let me know!
 
 > If you are more interested, check out the collection of [ **DSDmark**](https://github.com/DSDmark "DSDmark").
+
+</div>
 
 ---
 
