@@ -1,6 +1,6 @@
 <div align="center">
 
-# SimpleSpringAnimation
+# SpringSimulation
 
 </div>
 
@@ -31,7 +31,7 @@ Once you are done playing, you can close the tab in your browser to quit the gam
 
 </div>
 
-### SimpleSpringAnimation
+### SpringSimulation
 
 ![TextAnimation preview](assets/images/preview.gif  "TextAnimation preview")
 
