@@ -1,5 +1,11 @@
 <div align="center">
 
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DSDmark/SpringSimulation)
+![GitHub](https://img.shields.io/github/license/DSDmark/SpringSimulation)
+![GitHub language count](https://img.shields.io/github/languages/count/DSDmark/SpringSimulation)
+![GitHub last commit](https://img.shields.io/github/last-commit/DSDmark/SpringSimulation)
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/DSDmark/SpringSimulation/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/DSDmark/SpringSimulation/actions/workflows/jekyll-gh-pages.yml)
+
 # SpringSimulation
 
 </div>
