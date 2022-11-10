@@ -36,9 +36,9 @@ Once you are done playing, you can close the tab in your browser.
 ---
 
 
-## Try out Demo:-
+## Try out SpringSimulation Demo:-
 
-![SpringSimulation perview](dsdmark.github.io/SpringSimulation/ "SpringSimulation")
+![SpringSimulation Demo](https://dsdmark.github.io/SpringSimulation/ "SpringSimulation")
 
 </div>
 
