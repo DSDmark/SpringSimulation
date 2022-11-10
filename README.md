@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/DSDmark/SpringSimulation)
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/DSDmark/SpringSimulation/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/DSDmark/SpringSimulation/actions/workflows/jekyll-gh-pages.yml)
 
-# SpringSimulation
+# SimpleSpringSimulation
 
 </div>
 
