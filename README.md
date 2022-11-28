@@ -38,7 +38,7 @@ Once you are done playing, you can close the tab in your browser.
 
 ## Try out SpringSimulation Demo:-
 
-![SpringSimulation Demo](https://dsdmark.github.io/SpringSimulation/ "SpringSimulation")
+![SpringSimulation Demo](https://dsdmark.systems "SpringSimulation")
 
 </div>
 
